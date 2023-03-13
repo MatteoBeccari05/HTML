@@ -1,0 +1,61 @@
+@font-face {
+	font-family: 'Changa', cursive;
+	src: local('font/Changa-VariableFont_wght.ttf')
+}
+
+/* Stile del Jumbotron */
+.jumbotron {
+	background-image: url("Images/sfondo.jpg");
+	background-size: cover;
+	color: #19381f;
+	height: 600px;
+	text-align: center;
+}
+
+/* Stile del titolo del Jumbotron */
+.jumbotron h1 {
+	font-size: 4rem;
+	margin-top: 200px;
+}
+
+/* Stile della sezione Prodotti */
+.container {
+	margin-top: 50px;
+}
+
+/* Stile della card dei prodotti */
+.card {
+	margin-bottom: 20px;
+	background-color: #4c934c;
+}
+
+/* Stile della navbar */
+.navbar-brand {
+
+	font-size: x-large;
+
+}
+
+/* Stile del bottone Acquista */
+.btn-primary {
+	background-color: #eee82c;
+	border-color: #eee82c;
+	color: #19381f;
+}
+
+/* Stile del bottone Acquista al passaggio del mouse */
+.btn-primary:hover {
+	background-color: #218838;
+	border-color: #1e7e34;
+}
+
+/* Stile del link attivo nella navbar */
+.navbar-nav .active>.nav-link {
+	color: #eee82c;
+	font-weight: bold;
+}
+
+#nav-bar {
+	background-color: #4c934c;
+	box-shadow: 2px 2px 15px;
+}
